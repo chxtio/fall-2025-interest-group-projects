@@ -1,6 +1,5 @@
 # 00-llm-inference
 
-# Exercises
 
 ## What is the largest model in the Gemma3 family that you can run with ollama on a RTX6000 GPU?
 
@@ -76,7 +75,7 @@ model: gemma3:1b
 prompt: "write a poem about georgia tech"
 ```
 
-- Explort the YAML variables
+- Export the YAML variables
 
 ```bash
 export MODEL=$(yq -r '.model' config.yaml)
