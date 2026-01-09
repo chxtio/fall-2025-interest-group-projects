@@ -9,3 +9,6 @@ venv/
 
 # information retrieval data
 bm25*/
+
+# Jupyter notebook checkpoints
+**/.ipynb_checkpoints/
